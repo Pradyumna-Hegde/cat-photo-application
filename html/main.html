@@ -33,6 +33,15 @@
         h2 {
             font-family: Lobster, 'Trebuchet MS', 'Lucida Sans Unicode';
         }
+
+        #cat-photo-form {
+            background-color: green;
+        }
+
+        [type='checkbox'] {
+            margin-top: 10px;
+            margin-bottom: 15px;
+        }
     </style>
 </head>
 
@@ -75,7 +84,7 @@
             </ol>
         </div>
 
-        <form action="https://www.freecatphotoapp.com/submit-cat-photo">
+        <form id="cat-photo-form" action="https://www.freecatphotoapp.com/submit-cat-photo">
             <label for="indoor">
                 <input type="radio" name="indoor-outdoor" value="indoor" id="indoor" checked />Indoor
             </label>
