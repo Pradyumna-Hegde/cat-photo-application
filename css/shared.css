@@ -1,0 +1,54 @@
+html {
+  font-size: 62.5%;
+
+  --background-color: rgb(227, 240, 227);
+  --primary-color: rgb(85, 107, 47);
+  --heading-text-font: "Roboto", sans-serif;
+  --paragraph-text-font: "Roboto Mano", monospace;
+}
+
+body {
+  background-color: var(--background-color);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* header stylings */
+header {
+  margin: 0;
+  padding: 2rem;
+  text-align: center;
+  background-color: var(--primary-color);
+  color: var(--background-color);
+}
+
+header h2 {
+  font-family: var(--heading-text-font);
+  font-size: 6rem;
+  margin: 0;
+}
+
+header p {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 0;
+  margin-top: 0.8rem;
+}
+
+/* Footer stylings */
+footer {
+  text-align: center;
+  background-color: var(--primary-color);
+  width: 100%;
+  height: fit-content;
+}
+
+footer p {
+  margin: 0;
+  color: var(--background-color);
+  padding: 2rem;
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+}

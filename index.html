@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CatPhotoApp</title>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Mono:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- custom cascading style sheets -->
+    <link rel="stylesheet" href="/css/shared.css" />
+    <link rel="stylesheet" href="/css/index.css" />
+  </head>
+  <body>
+    <header>
+      <h2 class="red-text">Cat Photo Application</h2>
+      <p>an application built to recap basic Html and Css</p>
+    </header>
+
+    <main>
+      <div class="cat-image">
+        <a href="#"
+          ><img
+            class="smaller-image thick-green-border"
+            src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
+            alt="relaxing-cat"
+        /></a>
+        <p>
+          View more cat photos
+          <a href="https://www.freecatphotoapp.com">here</a>
+        </p>
+      </div>
+
+      <div class="cat-description">
+        <p>
+          The <span id="emphasize">cat (Felis catus)</span> is a domestic
+          species of small carnivorous mammal. It is the only domesticated
+          species in the family Felidae and is commonly referred to as the
+          domestic cat or house cat to distinguish it from the wild members of
+          the family. Cats are commonly kept as house pets but can also be farm
+          cats or feral cats; the feral cat ranges freely and avoids human
+          contact. Domestic cats are valued by humans for companionship and
+          their ability to kill rodents. About 60 cat breeds are recognized by
+          various cat registries.
+        </p>
+        <p>
+          The cat is similar in anatomy to the other felid species: it has a
+          strong flexible body, quick reflexes, sharp teeth, and retractable
+          claws adapted to killing small prey. Its night vision and sense of
+          smell are well developed. Cat communication includes vocalizations
+          like meowing, purring, trilling, hissing, growling, and grunting as
+          well as cat-specific body language. Although the cat is a social
+          species, it is a solitary hunter. As a predator, it is crepuscular,
+          i.e. most active at dawn and dusk. It can hear sounds too faint or too
+          high in frequency for human ears, such as those made by mice and other
+          small mammals. It also secretes and perceives pheromones.
+        </p>
+      </div>
+
+      <div id="lists">
+        <h2>Things usually cats loves and hates</h2>
+        <div class="silver-background list">
+          <h4>Top 3 things cats love:</h4>
+          <ul>
+            <li>Cat Nip</li>
+            <li>Laser Pointers</li>
+            <li>Lasagna</li>
+          </ul>
+        </div>
+
+        <div class="silver-background list">
+          <h4>Top 3 things cats hate:</h4>
+          <ul>
+            <li>Flea Treatment</li>
+            <li>Thunder</li>
+            <li>Other Cats</li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="form">
+        <h2>Fill the form</h2>
+        <form
+          id="cat-photo-form"
+          action="https://www.freecatphotoapp.com/submit-cat-photo"
+        >
+          <div id="location">
+            <h4>Location</h4>
+            <label for="indoor">
+              <input
+                type="radio"
+                name="indoor-outdoor"
+                value="indoor"
+                id="indoor"
+                checked
+              />Indoor
+            </label>
+
+            <label for="outdoor">
+              <input
+                type="radio"
+                name="indoor-outdoor"
+                value="outdoor"
+                id="outdoor"
+              />Outdoor
+            </label>
+          </div>
+
+          <div id="quality">
+            <h4>Qualities</h4>
+            <label for="loving">
+              <input
+                type="checkbox"
+                name="personality"
+                value="loving"
+                id="loving"
+                checked
+              />Loving
+            </label>
+
+            <label for="caring">
+              <input
+                type="checkbox"
+                name="personality"
+                value="caring"
+                id="caring"
+              />Caring
+            </label>
+
+            <label for="fitness-enthusiast">
+              <input
+                type="checkbox"
+                name="personality"
+                value="fitness-enthusiast"
+                id="fitness-enthusiast"
+              />Fitness-enthusiast
+            </label>
+          </div>
+
+          <div id="search">
+            <h4>Search Cats</h4>
+            <input
+              type="text"
+              name=""
+              id=""
+              placeholder="Cat Photo URL"
+              required
+            />
+            <button type="submit">submit</button>
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <footer><p>(c) Cat-Photo-Application Inc, Pradyumna-Hegde</p></footer>
+  </body>
+</html>
