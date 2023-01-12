@@ -1,0 +1,58 @@
+body {
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  font-size: 62.5%;
+  margin-top: 5vw;
+  font-size: 1rem;
+}
+
+header {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.4rem;
+}
+
+main {
+  width: 50%;
+  margin: auto;
+}
+
+.cat-photos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cat-photos {
+  margin: 0;
+}
+
+.cat-photos img {
+  width: 20rem;
+  height: 16rem;
+  object-fit: cover;
+}
+
+footer {
+  margin-top: 1rem;
+}
+
+footer p {
+  font-weight: 700;
+}
+
+footer p a {
+  color: black;
+  text-decoration: none;
+}
+
+footer a:hover {
+  background-color: black;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .cat-photos {
+    display: flex;
+    flex-direction: column;
+  }
+}
